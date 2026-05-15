@@ -4,3 +4,16 @@
 **/.codex
 **/.trash/
 **/.obsidian/workspace.json
+
+create-kubernetes-cluster-with-k3s/resume.txt
+kevin-workstation-postgres/resume.txt
+**/.obsidian/graph.json
+playbook.drafts/.obsidian/plugins/note-refactor-obsidian/data.json
+playbook.drafts/.obsidian/plugins/obsidian-link-converter/data.json
+playbook.drafts/.obsidian/plugins/obsidian-version-history-diff/data.json
+playbook.drafts/.obsidian/plugins/recent-notes/data.json
+**/*.swp
+**/Thumbs.db
+**/*.pyc
+**/*.pyo
+**/__pycache__/
