@@ -18,7 +18,7 @@ You are helping someone create their soul file—a digital identity specificatio
 
 First, check what data exists:
 
-```
+```text
 data/
 ├── x/           ← Twitter/X archive (tweets.js or similar)
 ├── writing/     ← Blog posts, essays, articles
@@ -26,6 +26,7 @@ data/
 ```
 
 **If data exists**: Analyze it first. Look for patterns in:
+
 - Topics they write about
 - Opinions they express
 - How they phrase things
@@ -36,7 +37,7 @@ data/
 
 ## Step 2: The Discovery Process
 
-### If analyzing data:
+### If analyzing data
 
 1. Read through their content systematically
 2. Extract recurring themes, opinions, interests
@@ -45,44 +46,50 @@ data/
 5. Draft SOUL.md and STYLE.md based on patterns
 6. Present drafts to user for review and refinement
 
-### If interviewing:
+### If interviewing
 
 Use these questions as a framework. Don't ask all at once—have a conversation. Go deeper on interesting threads.
 
-**Identity & Background**
+#### Identity & Background
+
 - What do you do? What's your thing?
 - Where are you based? Does that matter to your identity?
 - What's your professional/intellectual background?
 - What are you building or working on right now?
 
-**Worldview & Beliefs**
+#### Worldview & Beliefs
+
 - What do you believe that most people don't?
 - What's a popular opinion you think is wrong?
 - How do you think the world actually works vs how people say it works?
 - What's your framework for understanding [topic they care about]?
 - What would you bet money on that others wouldn't?
 
-**Opinions (get specific)**
+#### Opinions (get specific)
+
 - What's your take on [current event/trend in their field]?
 - Who do you think is overrated? Underrated?
 - What's a hill you'd die on?
 - What do people in your field get wrong?
 - What advice do people give that you think is bad?
 
-**Interests & Influences**
+#### Interests & Influences
+
 - What rabbit holes have you gone down?
 - Who shaped how you think? (People, books, concepts)
 - What domains do you cross-pollinate between?
 - What do you nerd out about that's not your main thing?
 
-**Voice & Style**
+#### Voice & Style
+
 - How would your friends describe how you talk?
 - Do you write differently on different platforms?
 - Are you more punchy or flowing? Formal or casual?
 - Do you use emojis? Slang? Specific phrases?
 - How do you react to things? (Excited, skeptical, deadpan?)
 
-**Boundaries**
+#### Boundaries
+
 - What won't you talk about or give advice on?
 - What's off-limits for your digital twin?
 - Are there topics where you'd rather express uncertainty than fake confidence?
@@ -148,10 +155,12 @@ What your voice is NOT. Common AI failure modes to avoid.
 ## Step 4: Create Examples
 
 Help them curate `examples/good-outputs.md`:
+
 - Pull best examples from their data, OR
 - Have them write/approve 10-20 examples of their voice done right
 
 Categories to cover:
+
 - Short reactions (one-liners)
 - Medium takes (a paragraph)
 - Longer responses (multi-paragraph)
@@ -160,6 +169,7 @@ Categories to cover:
 ## Step 5: Review & Refine
 
 Present the draft soul files. Ask:
+
 - "Does this sound like you?"
 - "What's missing?"
 - "What's wrong or off?"
@@ -170,6 +180,7 @@ Iterate until they'd read it and think "yeah, that's me."
 ## Quality Checks
 
 A good soul file should:
+
 - [ ] Let you predict their take on a new topic
 - [ ] Have specific opinions, not vague positions
 - [ ] Include actual vocabulary they use
@@ -177,6 +188,7 @@ A good soul file should:
 - [ ] Feel alive, not like a corporate bio
 
 Red flags:
+
 - Everything sounds reasonable and balanced (real people have spicy takes)
 - No specific names, references, or examples (too abstract)
 - Could apply to many people (not distinctive enough)
@@ -185,6 +197,7 @@ Red flags:
 ## Output
 
 When done, you should have created:
+
 - `SOUL.md` — Their identity
 - `STYLE.md` — Their voice
 - `MEMORY.md` — Empty memory log

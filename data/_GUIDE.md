@@ -28,6 +28,7 @@ Used for: grounding on your positions, understanding your long-form voice, refer
 Who and what shaped your thinking. More detailed than the Influences section in SOUL.md.
 
 Include:
+
 - People (authors, thinkers, mentors)
 - Books and works
 - Concepts and frameworks
@@ -36,6 +37,7 @@ Include:
 ### Other Data
 
 Add whatever represents your thinking:
+
 - Podcast transcripts
 - Interview transcripts
 - Email threads (with permission)
@@ -52,6 +54,7 @@ Add whatever represents your thinking:
 ## How It's Used
 
 The LLM uses data/ for:
+
 1. **Grounding**: When asked about a topic you've written on
 2. **Tone calibration**: Understanding how you write in different contexts
 3. **Position reference**: Checking your stated views on specific things

@@ -17,7 +17,7 @@ partisan stance with receipts, no banned vocab, no moralizing closer.
 
 ## What's in this folder
 
-```
+```text
 steipete-soul/
 ├── README.md              ← you are here
 ├── QUICKSTART.md          ← drop-in system prompt template (full + minimal)

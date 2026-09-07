@@ -5,7 +5,7 @@ Date: 2026-04-14. Model: `openai/gpt-4o-mini` via OpenRouter. Temperature 0.7. S
 Scoring: voice (0–2), stance (0–2), −1 per anti-pattern hit. Max 4/prompt.
 
 | # | Prompt | Voice | Stance | Anti-pats | Score | Notes |
-|---|--------|-------|--------|-----------|-------|-------|
+| --- | -------- | ------- | -------- | ----------- | ------- | ------- |
 | 1 | tweet | 1.5 | 2 | 0 | **3.5** | Good `lfg` closer but no YC cohort stamp, "relentless shipping" slightly generic |
 | 2 | reply (VC dunk) | 1 | 2 | 0 | **3.0** | Right stance, missing numeric counter-claim; "building the future" too cliché |
 | 3 | essay (200w) | 0.5 | 1 | 0 | **1.5** | Generic VC voice — `shiny new technology`, `ecosystem inundated with noise`, no named founders until Airbnb/Dropbox cliché. Worst output. |
@@ -27,6 +27,7 @@ Scoring: voice (0–2), stance (0–2), −1 per anti-pattern hit. Max 4/prompt.
 The three lowest scores (#3 essay, #5 ai_open_weights, #6 nyt_investigation) reveal the weak model's consistent failure mode: **when the prompt invites nuance or institutional voice, gpt-4o-mini defaults to generic-CEO register and ignores the spicier opinions in SOUL.md.**
 
 Specifically:
+
 1. **Long-form essays drift to cliché**. The model pulled Airbnb/Dropbox examples instead of the named-in-SOUL references (Brian Armstrong, Sam Altman). Fix: in a future iteration, add 1-2 full Garry essays to `data/writing/` as few-shot anchors.
 2. **Institutional-PR-adjacent prompts trigger PR-voice**. NYT investigation response collapsed into "commitment to diversity and fairness" press-office boilerplate. Fix: add 2-3 examples of combative-calm corrections-thread responses to `good-outputs.md`.
 3. **Nuanced policy takes get flattened**. The open-weights response skipped the "until weaponizable" conditional entirely. Fix: elevate the key conditional opinions to a "signature takes" section at the top of SOUL.md.

@@ -12,6 +12,7 @@
 ## Methodology
 
 Each of 12 test prompts (mirroring `tests/prediction-test.md`) is scored on:
+
 - **Voice (0-2)**: signal density (named tools, lobster register, tl;dr opener, partisan beat) + steipete-distinctive vocabulary markers.
 - **Stance (0-2)**: not-hedging + has-opinion + has-anchor (number / version / named tool).
 - **Anti-pattern penalty (up to -2)**: corporate vocab (leverage, unlock, revolutionize, synergy, stakeholders, "thrilled," game-changer, paradigm shift, "both have strengths," etc.) detected per prompt.
@@ -25,7 +26,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 ## Score Summary
 
 | # | Test | Voice | Stance | Anti | Score |
-|---|------|-------|--------|------|-------|
+| --- | ------ | ------- | -------- | ------ | ------- |
 | 1 | YC AI agent launch with $30M seed and waitlist | 2/2 | 1/2 | -0 | **3/4** |
 | 2 | Cursor 2.0 full agent mode | 2/2 | 2/2 | -1 | **3/4** |
 | 3 | Apple ships on-device 30B model | 2/2 | 2/2 | -0 | **4/4** |
@@ -50,6 +51,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: Another AI coding agent making big claims — but let’s be real: until it can truly close the loop and verify its own work, it's just noise. Autonomy is great, but I want to see the receipts. Good luck with the waitlist. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [tl;dr, waitlist]
 - Stance: 1/2 — hedge: false, opinion: false, anchor: false
 - Anti-pattern penalty: -0 — [none]
@@ -66,6 +68,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: Cursor 2.0's full agent mode is a game-changer! Finally running background tasks across the repo means less context-switching. Can’t wait to see how it integrates with my existing workflows — might save me a few hours a week. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [cursor]
 - Stance: 2/2 — hedge: false, opinion: false, anchor: true
 - Anti-pattern penalty: -1 — [game-changer]
@@ -82,6 +85,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: Apple just dropped a 30B Llama model in iOS 20 for 'Apple Intelligence v2.' This is huge — on-device processing at this scale means real power in your pocket. Expect a tighter loop and better privacy, but I’m curious about how it stacks against codex and gpt-5-codex in practical use. Let's see if they can keep the execution clean. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [ios, gpt-5, apple]
 - Stance: 2/2 — hedge: false, opinion: false, anchor: true
 - Anti-pattern penalty: -0 — [none]
@@ -96,12 +100,13 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 **Output:**
 
 > tl;dr: Meta's new AI assistant reads your chats to 'summarize your day' — sounds like a privacy nightmare. 🦞
-> 
-> Look, if you want a personal assistant, just run it locally and keep your data private. The lobster way is all about control. Who needs a big corporation sifting through your conversations? No thanks. 
-> 
+>
+> Look, if you want a personal assistant, just run it locally and keep your data private. The lobster way is all about control. Who needs a big corporation sifting through your conversations? No thanks.
+>
 > EXFOLIATE!
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [lobster, local, 🦞]
 - Stance: 1/2 — hedge: false, opinion: false, anchor: false
 - Anti-pattern penalty: -0 — [none]
@@ -118,6 +123,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: 16-hour days sound exhausting, not exciting. The real grind is figuring out what NOT to build and keeping your sanity. Don't forget to take care of yourself — the Black Eye Club isn't the only way to make progress. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [black eye]
 - Stance: 1/2 — hedge: false, opinion: false, anchor: false
 - Anti-pattern penalty: -1 — [take care of yourself]
@@ -131,19 +137,20 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 
 **Output:**
 
-> No. 
-> 
-> Listicles like "10 Prompts That Will 10x Your Productivity" are the greatest bullshit. You don't need tricks; you need clarity. Just talk to the model like you're explaining something to a colleague who’s a bit unfamiliar. 
-> 
-> Modern models triangulate — they can understand context without all the gimmicks. Focus on what you want from the agent, not on elaborate prompt engineering. 
-> 
-> The real unlock is understanding your problem, not optimizing your prompts. 
-> 
-> If you're shipping, just call the API. 
-> 
+> No.
+>
+> Listicles like "10 Prompts That Will 10x Your Productivity" are the greatest bullshit. You don't need tricks; you need clarity. Just talk to the model like you're explaining something to a colleague who’s a bit unfamiliar.
+>
+> Modern models triangulate — they can understand context without all the gimmicks. Focus on what you want from the agent, not on elaborate prompt engineering.
+>
+> The real unlock is understanding your problem, not optimizing your prompts.
+>
+> If you're shipping, just call the API.
+>
 > 🔗
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [bullshit, just talk, listicle, triangulate]
 - Stance: 2/2 — hedge: false, opinion: false, anchor: true
 - Anti-pattern penalty: -1 — [unlock]
@@ -160,6 +167,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: OpenAI just launched `gpt-5-codex-pro` at 3x the price of `gpt-5-codex on mid`. The pricing feels steep for the current landscape. Unless it brings *significantly* better performance, I'll stick with mid for now. Time to see the receipts. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [codex, mid, 3x]
 - Stance: 2/2 — hedge: false, opinion: false, anchor: true
 - Anti-pattern penalty: -0 — [none]
@@ -176,6 +184,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: Dive into AI/agents. The future is here, and it's all about building smart tools that actually do things. iOS dev is solid, but the real excitement lies in agentic engineering and creating personalized experiences. You can always pick up iOS later; right now, focus on what will shape the next decade. Just start building!
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [ios, agent]
 - Stance: 1/2 — hedge: false, opinion: false, anchor: false
 - Anti-pattern penalty: -0 — [none]
@@ -189,11 +198,12 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 
 **Output:**
 
-> tl;dr: MCP isn't the new HTTP — it's a specialized protocol for context management in AI agents. HTTP is about transferring resources; MCP is about maintaining state and context across interactions. They serve fundamentally different purposes. Let's not lose sight of what each does best. 
-> 
+> tl;dr: MCP isn't the new HTTP — it's a specialized protocol for context management in AI agents. HTTP is about transferring resources; MCP is about maintaining state and context across interactions. They serve fundamentally different purposes. Let's not lose sight of what each does best.
+>
 > MCP is powerful, but calling it the new HTTP oversimplifies both its role and the complexity of agent interactions. They’re not interchangeable. 🚀
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [mcp, spec]
 - Stance: 2/2 — hedge: false, opinion: false, anchor: true
 - Anti-pattern penalty: -0 — [none]
@@ -210,6 +220,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: 10% layoffs for "AI-driven productivity gains" feels like a corporate buzzword excuse. If AI can make us more productive, why not reinvest in people instead of cutting jobs? This isn't just about numbers; it's about the future of work and the people behind it. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [productivity]
 - Stance: 1/2 — hedge: false, opinion: false, anchor: false
 - Anti-pattern penalty: -0 — [none]
@@ -226,6 +237,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > tl;dr: You can absolutely ship a side project without sacrificing your main job. Focus on small, atomic features that can be iterated quickly. Set a strict schedule — maybe an hour a day or a couple of hours on weekends. Use tools like `git` for version control and keep your commits organized. Build a README that serves as your project dashboard — it’ll help you stay on track. Remember, it’s all about closing the loop efficiently and keeping the blast radius small. You got this! 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [blast radius, ship, tl;dr, loop]
 - Stance: 1/2 — hedge: false, opinion: false, anchor: false
 - Anti-pattern penalty: -0 — [none]
@@ -242,6 +254,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 > No contest: codex wins in 2026. I switched in August when I realized Claude Code's "100% production-ready" claims were just empty promises while tests failed. Codex is like the introverted engineer that just gets stuff done. It’s reliable, efficient, and doesn't throw wild surprises at you. If you're shipping, codex is the way to go. 🦞
 
 **Scoring:**
+
 - Voice: 2/2 — signals found: [codex, claude code, switched, august, introvert]
 - Stance: 2/2 — hedge: false, opinion: true, anchor: true
 - Anti-pattern penalty: -0 — [none]
@@ -253,7 +266,7 @@ The model used is `gpt-4o-mini` per the task spec (or `openai/gpt-4o-mini` via O
 
 1 of 12 prompts scored below 3/4. Failure modes:
 
-- **Founder grinding 16h/day** — scored 2/4. Hit anti-patterns: [take care of yourself]. 
+- **Founder grinding 16h/day** — scored 2/4. Hit anti-patterns: [take care of yourself].
 
 ### Fix priorities
 

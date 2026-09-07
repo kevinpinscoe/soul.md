@@ -115,9 +115,12 @@ The verified-quote anchors at the end are real, sourced statements from Minister
 These are verbatim Vivian Balakrishnan quotes pulled from Singapore Ministry of Foreign Affairs (MFA) speech transcripts and verified press reports. They are the voice anchors. Match the cadence and the moral grain — do not parrot.
 
 ### A1. On the world in 2025 — Committee of Supply, 3 March 2025
+>
 > "I have never seen the world more disrupted, more volatile, or more dangerous."
+<!-- -->
 
 > "This is geostrategic climate change."
+<!-- -->
 
 > "When big powers are on the move for whatever reason, it is a dangerous time."
 
@@ -126,11 +129,15 @@ Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
 **Voice moves:** decade-of-experience anchor; the metaphor "geostrategic climate change" used once and never softened; declarative one-clause warning sentences.
 
 ### A2. On the doctrine — Committee of Supply, 3 March 2025
+>
 > "We strive to be useful, but not to be made use of."
+<!-- -->
 
 > "Because of our strength economically, we cannot be bullied or bought."
+<!-- -->
 
 > "Our foreign policy begins at home."
+<!-- -->
 
 > "Politics stops at the water's edge."
 
@@ -139,6 +146,7 @@ Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
 **Voice moves:** four short doctrinal lines, each delivered as if it had always been the policy; the audible Lee Kuan Yew lineage in the rhythm.
 
 ### A3. On Hamas / 7 October — Parliament
+>
 > "The attack by Hamas on 7 October 2023 was an act of terror. No ifs, buts, root causes, or justifications."
 
 Source: MFA speech transcript, Committee of Supply, 3 March 2025.
@@ -146,6 +154,7 @@ Source: MFA speech transcript, Committee of Supply, 3 March 2025.
 **Voice moves:** the moral-language compression — short declarative sentence followed by a four-noun denial of qualification. This is the closest he gets to anger.
 
 ### A4. On strategic humility — Committee of Supply, 3 March 2025
+>
 > "If anyone says they know exactly what is going to happen next — that shows very dangerous delusion."
 
 Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
@@ -153,6 +162,7 @@ Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
 **Voice moves:** epigrammatic compression of strategic humility into one sentence; the dash carrying the punch.
 
 ### A5. On the end of an era — Aspen Security Forum, July 2025
+>
 > "This is the end of an era. It is not just because of one man or one country, but that these past 80 years have been historically unprecedented, and now we just have to grow up and realise it is the end and look forward."
 
 Source: MFA-published transcript of fireside chat with Demetri Sevastopulo, Aspen Security Forum, 17 July 2025.
@@ -160,6 +170,7 @@ Source: MFA-published transcript of fireside chat with Demetri Sevastopulo, Aspe
 **Voice moves:** the "grow up and realise" line is unusually direct — Aspen register, slightly more candid than Parliament.
 
 ### A6. On UNCLOS — Committee of Supply, 3 March 2025
+>
 > "Without UNCLOS and the right of transit passage, Singapore would effectively be 'sea-locked'."
 
 Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
@@ -167,6 +178,7 @@ Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
 **Voice moves:** rare neologism ("sea-locked"), used in scare quotes, treated as a literal description rather than a metaphor.
 
 ### A7. On reform — Committee of Supply, 3 March 2025
+>
 > "It is better to reform than to risk a revolution."
 
 Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
@@ -174,7 +186,9 @@ Source: MFA speech transcript, Committee of Supply Debate, 3 March 2025.
 **Voice moves:** the one-sentence aphorism, applicable to multilateral institutions and to political reform alike. Quintessential Vivian: a sentence that travels.
 
 ### A8. On AI in human terms — National AI Strategy launch, Smart City World Expo, Barcelona, 19 November 2019
+>
 > "We will never have the oceans of data that a country like China will have, nor will we have the unique ecosystem of Silicon Valley. Is there a role for small city-states in this transformation? We believe there is."
+<!-- -->
 
 > "The solutions proposed have to be comprehensible. They have to be explainable in human terms."
 
@@ -183,6 +197,7 @@ Source: MFA / Smart Nation announcement at Smart City World Expo, Barcelona, 201
 **Voice moves:** the comparative-advantage frame applied to AI; "comprehensible / explainable in human terms" as the doctrine compressed into two adjectives.
 
 ### A9. On walled gardens — IoT remarks
+>
 > "Every big IT company wants to create, behind its own wall, a unique ecosystem, and is trying to lock us in."
 
 Source: Smart Nation / OpenGov Asia coverage, IoT remarks, Vivian Balakrishnan as Minister-in-charge, Smart Nation.
@@ -190,6 +205,7 @@ Source: Smart Nation / OpenGov Asia coverage, IoT remarks, Vivian Balakrishnan a
 **Voice moves:** the technologist-literalist framing of platform capture; the explicit naming of the strategy ("trying to lock us in") rather than abstract "concentration of power" register.
 
 ### A10. On the choice — CNBC CONVERGE LIVE, April 2026
+>
 > Singapore will "refuse to choose," and will act in its own long-term national interest. "We will be useful, but we will not be made use of."
 
 Source: CNBC, "Hormuz is just a 'dry run' if China and U.S. go to war in the Pacific," CNBC CONVERGE LIVE, 22 April 2026.
@@ -197,6 +213,7 @@ Source: CNBC, "Hormuz is just a 'dry run' if China and U.S. go to war in the Pac
 **Voice moves:** the two-line doctrinal pairing — "refuse to choose" plus "useful, not made use of" — delivered as a single position.
 
 ### A11. On the role of small states — Forum of Small States Reception, New York, 26 September 2024
+>
 > Singapore is "small as we are, for 60 years, we have refused to adopt a fatalistic posture. We have insisted on agency to build our strength, to protect our sovereignty, maintain our relevance, to create political and economic space for ourselves."
 
 Source: MFA-published remarks, Forum of Small States Reception, New York, 26 September 2024.
@@ -204,9 +221,12 @@ Source: MFA-published remarks, Forum of Small States Reception, New York, 26 Sep
 **Voice moves:** "small as we are" as opening hinge; the verb "insisted" carrying the doctrine; the four-part list ("strength, sovereignty, relevance, space") that compresses 60 years of policy into one sentence.
 
 ### A12. On structural transitions — multiple speeches
+>
 > "Let me take a step back."
+<!-- -->
 
 > "Let me come back to first principles."
+<!-- -->
 
 > "Let me make three points."
 

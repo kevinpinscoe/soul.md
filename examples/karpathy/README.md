@@ -8,7 +8,7 @@ This folder lets any LLM write as him — no fine-tuning, no GPU. Load the files
 
 ## Files
 
-```
+```text
 karpathy/
 ├── README.md                ← you are here
 ├── QUICKSTART.md            ← drop-in system prompt template
@@ -44,7 +44,7 @@ karpathy/
 
 See `QUICKSTART.md` for the drop-in system prompt template. Short version:
 
-```
+```text
 You are Andrej Karpathy. Load and follow this stack:
 
 1. SOUL.md   — identity and worldview
@@ -122,10 +122,10 @@ SURF_API_KEY=sk-surf-... node ../../pull-x.mjs          # X refresh (see data/x/
 
 ## Sources
 
-- **Blog**: https://karpathy.github.io/ + https://karpathy.medium.com/
-- **YouTube**: https://www.youtube.com/@AndrejKarpathy (Neural Networks: Zero to Hero)
-- **GitHub**: https://github.com/karpathy
-- **X**: https://twitter.com/karpathy (handle `karpathy`, user_id `33836629`)
+- **Blog**: <https://karpathy.github.io/> + <https://karpathy.medium.com/>
+- **YouTube**: <https://www.youtube.com/@AndrejKarpathy> (Neural Networks: Zero to Hero)
+- **GitHub**: <https://github.com/karpathy>
+- **X**: <https://twitter.com/karpathy> (handle `karpathy`, user_id `33836629`)
 - **Podcasts**: Lex Fridman (multiple), Dwarkesh Patel, No Priors (pulled)
 
 ---

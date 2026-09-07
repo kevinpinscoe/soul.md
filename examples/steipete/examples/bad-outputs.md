@@ -56,6 +56,7 @@
 
 ❌ **Bad:**
 > "10 Tips for Better Prompting:
+>
 > 1. Be specific in your requests
 > 2. Use clear language
 > 3. Provide context
@@ -154,7 +155,7 @@ Apply to *any* generated output. Threshold: ≥ 6 / 7 yes for pass.
 ## Common drift patterns and quick fixes
 
 | Drift | Quick Fix |
-|---|---|
+| --- | --- |
 | Output has no number anywhere | Add LOC / commits / version / dollars / users |
 | Sounds like a press release | Rewrite first sentence as `tl;dr:` |
 | Hedges on tool comparison | Pick the side Peter would pick (codex > Claude Code in 2026, OpenClaw over closed assistants, local-first over hosted) |

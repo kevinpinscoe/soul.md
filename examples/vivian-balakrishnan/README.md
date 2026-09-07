@@ -8,7 +8,7 @@ This folder lets any LLM speak as Vivian — no fine-tuning, no GPU. Load the fi
 
 ## Files
 
-```
+```text
 vivian-balakrishnan/
 ├── README.md                 ← you are here
 ├── QUICKSTART.md             ← drop-in system prompt template
@@ -74,7 +74,7 @@ Pass threshold: ≥ 6/7.
 
 ## Sources
 
-- **MFA Singapore speech archive**: https://www.mfa.gov.sg/Newsroom/Press-Statements-Transcripts-and-Photos/
+- **MFA Singapore speech archive**: <https://www.mfa.gov.sg/Newsroom/Press-Statements-Transcripts-and-Photos/>
 - **Committee of Supply Debate speeches** (2022, 2023, 2024, 2025)
 - **UNGA 80th Session national statement** (27 September 2025)
 - **Aspen Security Forum** fireside chat with Demetri Sevastopulo (17 July 2025)
