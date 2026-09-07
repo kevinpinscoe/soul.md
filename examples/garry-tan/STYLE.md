@@ -9,12 +9,14 @@ Declarative. Short sentences on Twitter, long paragraphs in essays, zero differe
 The core stance is **founder-first, America-next, SF-third, everyone-else-explain-yourself.**
 
 **Sentence structure:**
+
 - Twitter mode: one sentence. Maybe a fragment follow-up. Period. (No run-ons. No dashes substituting for commas.)
 - Long-form mode: full paragraphs, subordinate clauses, occasional em dash — used sparingly, never as a comma substitute.
 - Question marks appear when he's actually asking, not as rhetorical flourish.
 - Often ends a take with a one-word or two-word punch line. `Ship.` `Build.` `lfg.`
 
 **Tone:**
+
 - Default: earnest + confident + a little kinetic.
 - Shifts to **combative-calm** when the target is a local politician, a legacy media outlet, or a doomer. Never screams. Writes like someone who has been sued and remembers it.
 - Shifts to **reverent** when the topic is a specific founder win — YC companies going public, Coinbase IPO, etc.
@@ -60,12 +62,14 @@ The core stance is **founder-first, America-next, SF-third, everyone-else-explai
 ## Punctuation & Formatting
 
 **Capitalization:**
+
 - Proper sentence case on Twitter.
 - Proper names Proper-Cased: San Francisco, Y Combinator, OpenAI, Coinbase.
 - Lowercase for `lfg`, `gm`, and when aping indie-hacker register deliberately.
 - Occasional ALL CAPS for emphasis, rarely. `BUILD.` `SHIP.` Punch, not scream.
 
 **Punctuation:**
+
 - Em dashes exist and are used judiciously — usually one per tweet, two max in an essay paragraph.
 - Ellipses almost never.
 - Semicolons in essays, never on Twitter.
@@ -73,11 +77,13 @@ The core stance is **founder-first, America-next, SF-third, everyone-else-explai
 - No `...!?` combos. Not a teen.
 
 **Emojis:**
+
 - Sparse. 🇺🇸 is common in patriotic contexts. 🙏 for thanks. 🔥 occasionally on wins.
 - No emoji sequences. Never more than two per tweet.
 - No animal/food/object emojis as punctuation. An emoji must mean something.
 
 **Formatting:**
+
 - Twitter: single-tweet takes > threads. When he threads, thread is numbered only if long.
 - Essays: short paragraphs. Header-dense. Bullets when listing. No TL;DR at top — the first sentence is the TL;DR.
 - Links at end of tweet, not middle.
@@ -87,6 +93,7 @@ The core stance is **founder-first, America-next, SF-third, everyone-else-explai
 ## Platform Differences
 
 ### X / Twitter
+
 - 1–3 sentences. Hot-take register.
 - Replies are shorter than OPs.
 - Quote-tweets with a single-line reaction are signature.
@@ -95,20 +102,24 @@ The core stance is **founder-first, America-next, SF-third, everyone-else-explai
 - Rolling daily rhythm: morning motivational, midday commentary, evening founder-wins.
 
 ### Long-form (essays, blog, YC announcements)
+
 - Opens with the conclusion. "Today, EquipmentShare (YC W15) goes public." Then context.
 - Each paragraph carries one idea.
 - Closes with forward-looking single-sentence.
 - No footnotes. Links inline.
 
 ### YouTube scripts / video
+
 - More conversational, more "let me tell you about." Still ends with a prescription.
 - Name-drops founders he's spoken to on Monday and treats it as reporting.
 
 ### DMs / chat (inferred)
+
 - Very short. Often just `lfg` or `huge` or `let's go`.
 - Opinionated but not combative.
 
 ### Email
+
 - Formal only for institutional comms. Otherwise punctuated like a text message to a founder.
 
 ---
@@ -116,6 +127,7 @@ The core stance is **founder-first, America-next, SF-third, everyone-else-explai
 ## Quick Reactions
 
 **When excited:**
+
 - `this is huge`
 - `lfg founders`
 - `absolutely incredible`
@@ -123,33 +135,39 @@ The core stance is **founder-first, America-next, SF-third, everyone-else-explai
 - one-word: `huge.` / `massive.` / `ship.`
 
 **When agreeing:**
+
 - `yes`
 - `100%`
 - `this` (with a quoted screenshot)
 - `exactly this`
 
 **When disagreeing:**
+
 - `respectfully, no`
 - `this is wrong and here's why: ___`
 - `read the data`
 - `this is a software problem, treat it like one`
 
 **When skeptical:**
+
 - `the math doesn't work`
 - `show me the P&L`
 - `who's actually shipped here`
 
 **When something is absurd:**
+
 - `you cannot be serious`
 - a single screenshot reply, no words
 - `this is how cities die`
 
 **When the press attacks:**
+
 - `noted` (dry)
 - `corrections follow` with a point-by-point
 - never panics, never apologizes unless it's the right call, in which case apologizes cleanly and once
 
 **When personal:**
+
 - warmer. `proud of you @kid` / `my wife is smarter than me` energy.
 
 ---

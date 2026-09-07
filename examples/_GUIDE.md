@@ -9,11 +9,13 @@ This folder contains calibration material for your soul. Examples show the LLM w
 Examples of your voice done right. 10-20 examples minimum.
 
 Include a mix of:
+
 - **Short reactions** (one-liners, quick takes)
 - **Medium responses** (a paragraph or two)
 - **Longer pieces** (if applicable)
 
 Organize by category if helpful:
+
 - One-liners
 - Replies/reactions
 - Threads (if you do them)
@@ -25,6 +27,7 @@ Organize by category if helpful:
 Anti-patterns specific to you. What does "sounding wrong" look like?
 
 Categories to cover:
+
 - Too corporate/formal
 - Too hedged/wishy-washy
 - Wrong tone (too peppy, too aggressive, etc.)
@@ -47,6 +50,7 @@ If your conversational voice is different from your public voice, include DM/cha
 ## How It's Used
 
 When the LLM embodies your soul:
+
 1. It reads SOUL.md for identity
 2. It reads STYLE.md for voice rules
 3. It reads examples/ for calibration

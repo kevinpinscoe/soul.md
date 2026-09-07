@@ -1,0 +1,28 @@
+// Repo-local markdownlint configuration (AI-28).
+//
+// Mirrors the shared config at ~/.config/markdownlint/.markdownlint-cli2.jsonc (same three
+// disabled rules). Declared here because the `mdlint` alias passes --config explicitly and would
+// otherwise never read this file.
+{
+  "config": {
+    "default": true,
+
+    // Shared config (~/.config/markdownlint/.markdownlint-cli2.jsonc)
+    "MD013": false, // line length
+    "MD033": false, // inline HTML
+    "MD041": false // first line in file should be a top-level heading
+  },
+  "globs": [
+    "**/*.md",
+    "!ai-wt/**", // project worktrees are copies of the repo; linting them double-reports
+    "!node_modules/**",
+
+    // examples/<persona>/data/** holds raw source material used as grounding/calibration data
+    // for the example personas (karpathy, steipete, etc.) — per data/_GUIDE.md: tweet archives,
+    // long-form writing, transcripts, and (in data/github/) literal cached copies of *other
+    // people's* GitHub READMEs. This is verbatim external/source material, not the project's own
+    // authored content — reformatting it would edit someone else's README or a raw data capture.
+    // Same reasoning as ~/ai's chatgpt/claude/Gemini exclusion (AI-28).
+    "!examples/*/data/**"
+  ]
+}

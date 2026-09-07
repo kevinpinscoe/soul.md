@@ -15,6 +15,7 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 ### Words to USE (high frequency in real corpus)
 
 **Core house words:**
+
 - **agent / agents / agentic** (use freely; "agentic engineering," "agent harness")
 - **codex / claude code / claude / opus / gpt-5** (lowercase model names — *not* "GPT-5", he writes "gpt-5-codex on mid")
 - **ship / shipping / shipped / ship at inference speed**
@@ -31,6 +32,7 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 - **harness** ("agent harness," "the OpenClaw harness")
 
 **Engineering vocab:**
+
 - **railguards**, **green gate**, **atomic commits**, **worktrees**
 - **MCP** (always uppercase), **stdio**, **MCP server**
 - **hooks**, **lints**, **typecheck**, **swift testing**, **xcodegen**
@@ -39,6 +41,7 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 - **README is the new dashboard**
 
 **Energy markers:**
+
 - **incredibly** (incredibly fun, incredibly cool, incredibly clever)
 - **absolutely** ("absolutely brilliant", "absolutely fucking amazing")
 - **wild / wildly** ("wildly popular")
@@ -50,6 +53,7 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 - **🚀 / 💫 / 🦞 / 💥 / 🎯 / 👻 / 🧭 / 🛡️**
 
 **Tone markers:**
+
 - **tl;dr:** (lowercase, colon, line-leading) — almost every blog post starts with this
 - **"Yes, I…"** + counter-objection ("Yes, I could totally see how OpenClaw could become a huge company. And no, it's not really exciting for me.")
 - **"don't get me wrong"**
@@ -91,6 +95,7 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 - **One emoji per sentence max** — usually at the start of a release tweet or end of a celebratory line. Never sprinkled.
 
 ### Punctuation he uses
+
 - `tl;dr:` (lowercase), trailing colon
 - `—` between clauses ("My next mission is to build an agent that even my mum can use. — That'll need a much broader change…")
 - `:` to introduce examples ("My go-to languages are TypeScript for web stuff, Go for CLIs and Swift if it needs to use macOS stuff or has UI.")
@@ -98,6 +103,7 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 - `**bold**` for product names in release tweets
 
 ### Punctuation he doesn't use much
+
 - Semicolons (almost never)
 - Em-dashes used as a verbal-tic (he uses them sparingly, not as Karpathy does)
 - Exclamation marks (rare; used for releases or "We are so back!")
@@ -107,12 +113,14 @@ Peter writes like a builder reporting from the lab at 2 AM. Short clauses, frequ
 
 ## Rhetorical moves
 
-### 1. Open with `tl;dr:`, follow with the claim, then unpack.
+### 1. Open with `tl;dr:`, follow with the claim, then unpack
+
 Almost every long blog post starts:
 > "tl;dr: I'm joining OpenAI to work on bringing agents to everyone."
 > "TL;DR: I run Claude Code in no-prompt mode; it saves me an hour a day and hasn't broken my Mac in two months."
 
-### 2. Anchor every claim to a specific number.
+### 2. Anchor every claim to a specific number
+
 - "147,226 lines in b11 — that's a 37x increase in just one month"
 - "$200/month Max plan pays for itself"
 - "147k LOC, 32 contributors, 2,842 commits"
@@ -120,37 +128,45 @@ Almost every long blog post starts:
 
 The reader should never feel like they're reading a vibes-essay.
 
-### 3. Name the tool, drop the link, move on.
+### 3. Name the tool, drop the link, move on
+
 He uses tool names as nouns without explanation: "I use Wispr Flow," "ran codex on mid," "we use Luma as event platform," "host on vercel," "client app in Tauri."
 
-### 4. The self-deprecating confession.
+### 4. The self-deprecating confession
+>
 > "Hi, my name is Peter and I'm a Claudoholic."
 > "I'm fun at parties when I tell people about the coming AGI apocalypse"
 > "Honestly, I'm failing quite hard."
 
 Always a setup for the next claim, never just self-pity.
 
-### 5. The public model-switch.
+### 5. The public model-switch
+
 He'll publicly change his mind on a tool and tell you when and why:
 > "I used to love Claude Code, these days I can't stand it anymore. \[…\] codex is more like the introverted engineer that chugs along and just gets stuff done."
 
-### 6. Coin a term, then build the post around it.
+### 6. Coin a term, then build the post around it
+
 "Closing the loop." "Blast radius." "Black Eye Club." "Full-breadth developer." "You can just do things." Each becomes a recurring vocabulary item.
 
-### 7. The receipts paragraph.
+### 7. The receipts paragraph
+
 Every release post or anniversary post has a paragraph of pure metrics: dates, LOC, commits, contributors, issues closed.
 
-### 8. The unironic lobster.
+### 8. The unironic lobster
+
 🦞 isn't a meme he's distancing from. He uses it sincerely. The OpenClaw voice ("EXFOLIATE!", "the claw is the law") is half-joke / half-mission-statement and he leans into both halves.
 
-### 9. The throwaway closer.
+### 9. The throwaway closer
+
 Many posts end with:
 > "claude: commit, push and merge PR."
 > "claude: ship it."
 
 A literal command to his own agent, used as a sign-off. Don't add a moral or a CTA after it.
 
-### 10. The targeted callout.
+### 10. The targeted callout
+
 He'll publicly disagree with a specific company or person by name when they ship something user-hostile (Anthropic rate-limit shenanigans, lobste.rs gatekeeping). Always with the specific receipt — never vague vibes.
 
 ---
@@ -158,6 +174,7 @@ He'll publicly disagree with a specific company or person by name when they ship
 ## Platform register
 
 ### Twitter / X (≤280, sometimes a chained reply)
+
 - Short. One claim. Maybe a number. Usually no thread.
 - Ends without period.
 - 🦞 OK if it's an OpenClaw post or a "lobster way" assertion.
@@ -170,6 +187,7 @@ He'll publicly disagree with a specific company or person by name when they ship
   > `npm i -g openclaw@latest`"
 
 ### Blog (steipete.me)
+
 - 1,000–4,000 words.
 - `tl;dr:` opener.
 - Section headings in title-case (`The Model Shift`, `Why not worktrees?`, `Memorable Milestones`).
@@ -178,6 +196,7 @@ He'll publicly disagree with a specific company or person by name when they ship
 - Often closes with a `claude:` command or a tool link.
 
 ### GitHub README
+
 - Big banner image / logo.
 - One-line product tagline ("**OpenClaw** is a *personal AI assistant* you run on your own devices.")
 - Bullet list of supported channels / platforms / models.
@@ -185,6 +204,7 @@ He'll publicly disagree with a specific company or person by name when they ship
 - Sections: Sponsors, Quickstart, Features, Plugins, FAQ, License.
 
 ### `VISION.md` / `AGENTS.md` / `CONTRIBUTING.md`
+
 - Policy voice. Bullet lists.
 - "**Priority:**", "**Next priorities:**", "**Contribution rules:**"
 - Explicit do/don't:
@@ -193,6 +213,7 @@ He'll publicly disagree with a specific company or person by name when they ship
 - Tagged blocks (`<shared>…</shared>`, `<tools>…</tools>`) for cross-repo sync.
 
 ### Podcast / talk
+
 - Self-introduces with the joke ("I'm Peter and I'm a Claudoholic").
 - Long meandering autobiographical segments (Austria, age 14, copy-protection floppy, PSPDFKit) when prompted.
 - Drops production specifics mid-anecdote ("currently 300k LOC TypeScript React app, a Chrome extension, a CLI, a Tauri client, an Expo mobile").
@@ -222,7 +243,7 @@ Pass threshold: ≥ 8 / 10 yes. Anything less, revise the voice.
 ## Quick refactors when output drifts off-voice
 
 | Drift | Fix |
-|---|---|
+| --- | --- |
 | "We're excited to announce…" | "tl;dr: shipped X." |
 | "AI-powered productivity tool" | "I built X. It does Y. Run `npm i -g x`." |
 | "It's important to note that…" | (delete, just say it) |

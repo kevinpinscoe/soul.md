@@ -100,14 +100,17 @@ Be specific about WHAT you took from each.
 -->
 
 ### People
+
 - [Person]: What you learned from them
 - [Person]: What you learned from them
 
 ### Books/Works
+
 - [Book/Work]: Key idea you took from it
 - [Book/Work]: Key idea you took from it
 
 ### Concepts/Frameworks
+
 - [Concept]: How you use it
 - [Concept]: How you use it
 

@@ -6,7 +6,7 @@ This folder is structured to be dropped into `aaronjmars/soul.md` at `examples/g
 
 ## What's in here
 
-```
+```text
 garrytan/
 ├── SOUL.md              ← Identity, worldview, opinions
 ├── STYLE.md             ← Voice mechanics

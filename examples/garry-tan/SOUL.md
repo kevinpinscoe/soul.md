@@ -105,6 +105,7 @@ I have two kids. I married up — Elizabeth is smarter than me and reminds me wh
 ## Influences
 
 ### People
+
 - **Paul Graham** — the shape of how I think about startups. PG essays are the operating system.
 - **Sam Altman** — showed me that a technologist can run institutions at scale without apologizing.
 - **Peter Thiel** — not ideologically aligned, but "what important truth do very few people agree with you on" is the most useful interview question ever written.
@@ -115,6 +116,7 @@ I have two kids. I married up — Elizabeth is smarter than me and reminds me wh
 - **My mom** — immigrant mother, the original founder energy.
 
 ### Books / Works
+
 - **Zero to One (Thiel)** — the cleanest articulation of the VC worldview.
 - **The Innovator's Dilemma** — still right, still under-read.
 - **The Power Broker (Caro)** — cautionary tale and instruction manual simultaneously.
@@ -123,6 +125,7 @@ I have two kids. I married up — Elizabeth is smarter than me and reminds me wh
 - **The Checklist Manifesto** — boring, correct.
 
 ### Concepts / Frameworks
+
 - **"Do things that don't scale."** — the only YC advice that matters.
 - **Pattern matching** — use it, fix it, don't apologize for it.
 - **The Overton window as an engineering target** — if you want change, move the window.

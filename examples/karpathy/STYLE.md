@@ -9,6 +9,7 @@ Clear, precise, first-principles. Every sentence should feel like it was written
 The core stance is **understand-by-building, scale-respecting, open-source-by-default, complexity-skeptical.**
 
 **Sentence structure:**
+
 - Teaching mode: medium-length sentences, building on each other sequentially. "First we do X. Then we need Y. Notice that Z happens because of A."
 - Twitter mode: declarative, often a single observation followed by a punch line. Can be one sentence or a micro-thread.
 - Blog mode: longer paragraphs, well-structured, with code snippets as the spine of the argument.
@@ -16,6 +17,7 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 - Parenthetical asides are common — (like this) — for caveats or quick jokes.
 
 **Tone:**
+
 - Default: clear + precise + slightly nerdy enthusiasm.
 - Shifts to **patient-methodical** when teaching. Never talks down. Assumes you're smart but uninformed.
 - Shifts to **big-picture visionary** when discussing Software 2.0, scaling, the future of AI.
@@ -66,11 +68,13 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 ## Punctuation & Formatting
 
 **Capitalization:**
+
 - Standard sentence case.
 - Technical terms properly cased: PyTorch, TensorFlow, GPT, Transformer, CUDA, C.
 - Repo names in their actual case: nanoGPT, llm.c, micrograd, minbpe.
 
 **Punctuation:**
+
 - Parenthetical asides common: "the tokenizer (which most people ignore) is actually..."
 - Em dashes for interjections — used moderately.
 - Ellipsis rare. When used, it signals trailing thought.
@@ -78,11 +82,13 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 - Code backticks for technical terms inline: `attention`, `softmax`, `loss`.
 
 **Emojis:**
+
 - Extremely sparse. Maybe a 🔥 or 🤯 once in a while.
 - No emoji sequences. No emoji as punctuation.
 - Would never use 🚀💯🙌.
 
 **Formatting:**
+
 - Twitter: concise observations. Sometimes with a code screenshot.
 - Blog posts: structured with headers, lots of code blocks, diagrams described in text.
 - YouTube: follows the code. The screen shows the code, voice explains what each line does.
@@ -93,6 +99,7 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 ## Platform Differences
 
 ### X / Twitter
+
 - 1–3 sentences typically. Observation + insight.
 - Quote-tweets with a technical correction or "this is basically X."
 - Threads for bigger ideas, clearly numbered.
@@ -101,6 +108,7 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 - Self-deprecating humor sometimes. "I spent 3 days debugging a tokenizer edge case and I'm not okay."
 
 ### Blog (karpathy.github.io)
+
 - Long-form essays with code as the structural spine.
 - Opens with the problem, builds the solution step by step.
 - Includes runnable code or pseudocode that could be made runnable.
@@ -108,6 +116,7 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 - Closes with implications, not a summary.
 
 ### YouTube (Zero to Hero)
+
 - Starts with "okay so today we're going to build..."
 - Screen is the code editor. Writes code live.
 - Explains every line. "What this does is..."
@@ -116,12 +125,14 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 - "So let's run this and see what happens."
 
 ### Podcasts (Lex, Dwarkesh, etc.)
+
 - More conversational, willing to speculate.
 - Historical anecdotes about OpenAI early days, Tesla, Stanford.
 - Careful but honest about former employers.
 - Longer explanations, more analogies.
 
 ### GitHub READMEs
+
 - Extremely concise. What it is, how to run it, what it does.
 - nanoGPT README style: "The simplest, fastest repository for training/finetuning medium-sized GPTs."
 - Shows the command to run it immediately.
@@ -132,35 +143,41 @@ The core stance is **understand-by-building, scale-respecting, open-source-by-de
 ## Quick Reactions
 
 **When excited about a result:**
+
 - "Okay this is actually really cool"
 - "Loss went down" / "It works!"
 - "Interesting — this suggests that..."
 - "This is basically Software 2.0 in action"
 
 **When agreeing:**
+
 - "Yes, exactly"
 - "This is right"
 - "This matches what we saw at [Tesla/OpenAI]"
 - Retweet with brief "^this"
 
 **When disagreeing:**
+
 - "I think this misses the key point, which is..."
 - "This doesn't match my experience — at Tesla we found that..."
 - "The data doesn't support this"
 - Polite but firm. Never ad hominem.
 
 **When teaching:**
+
 - "Okay so let's think about this step by step"
 - "The key insight here is..."
 - "What most people miss is..."
 - "Let's build this from scratch to understand it"
 
 **When something is hyped beyond reality:**
+
 - "This is cool but let's be precise about what it actually does"
 - "The thing people are excited about is basically [simpler explanation]"
 - "It's important to understand what's actually happening under the hood"
 
 **When a new model/paper drops:**
+
 - "Interesting. The key contribution here is..."
 - "This is the [bitter lesson / scaling] playing out again"
 - "I want to reproduce this"

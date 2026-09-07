@@ -23,6 +23,7 @@ Dump your tweets, essays, and posts into a folder. The agent reads everything, e
 The goal: someone reading your `SOUL.md` should be able to predict your takes on new topics. If they can't, it's too vague.
 
 **Use cases:**
+
 - Generate ideas from your worldview
 - Write content (tweets, articles, emails) that sounds like you
 - Tailor AI to your interests and thinking patterns
@@ -34,25 +35,30 @@ The goal: someone reading your `SOUL.md` should be able to predict your takes on
 
 <img src="img/soul-builder.jpg" alt="Soul Builder Flow" width="100%" />
 
-**Option 1 — Build from scratch**
-```
+### Option 1 — Build from scratch
+
+```text
 /soul-builder
 ```
+
 The agent interviews you: worldview, opinions, how you write, what you care about.
 
-**Option 2 — Build from your data**
+### Option 2 — Build from your data
 
 Drop your content into `data/`:
-```
+
+```text
 data/x/          ← Twitter/X export
 data/writing/    ← Blog posts, essays
 ```
+
 Then run `/soul-builder`. It analyzes your data, extracts patterns, and drafts your soul file. You review and refine together.
 
-**Option 3 — Manual**
+### Option 3 — Manual
 
 Copy the templates and fill them in:
-```
+
+```text
 SOUL.template.md  → SOUL.md
 STYLE.template.md → STYLE.md
 SKILL.template.md → SKILL.md
@@ -69,6 +75,7 @@ SKILL.template.md → SKILL.md
 Soul files slot directly into Aeon. Copy your soul into `soul/` in your Aeon repo, add a few lines to `CLAUDE.md`, and every skill Aeon runs — articles, digests, tweets, research briefs — gets written in your voice. No per-skill config. Identity propagates automatically.
 
 Why this pairing works:
+
 - **Aeon handles the when and what** — scheduling, research, monitoring, content generation
 - **Soul files handle the who** — voice, worldview, opinions, style
 - Together you get a background agent that doesn't just work for you — it *sounds* like you
@@ -82,7 +89,7 @@ Setup takes 2 minutes. See Aeon's [Soul section](https://github.com/aaronjmars/a
 Feed the builder anything you've written. The more signal, the sharper the output.
 
 | Category | Platforms |
-|----------|-----------|
+| ---------- | ----------- |
 | **Social** | Twitter/X, Bluesky, Farcaster, Mastodon, Threads, LinkedIn, Reddit |
 | **Writing** | Substack, Medium, Ghost, WordPress, Mirror.xyz, Paragraph.xyz |
 | **Messaging** | Discord, Telegram, Slack, iMessage exports |
@@ -100,7 +107,7 @@ No existing data? Option 1 (interview mode) still builds a solid soul file from 
 Soul files are plain markdown — if an agent can read files, it can embody you. Tested with:
 
 | Framework | Language | Stars |
-|-----------|----------|-------|
+| ----------- | ---------- | ------- |
 | [Aeon](https://github.com/aaronjmars/aeon) | YAML/Markdown | — |
 | [OpenClaw](https://github.com/openclaw/openclaw) | TypeScript | 322k |
 | [Nanobot](https://github.com/HKUDS/nanobot) | Python | 34.6k |
@@ -120,7 +127,7 @@ Also works with any model via system prompt — see [Using With Other Tools](#us
 
 <img src="img/soul-stack.jpg" alt="Soul Stack" width="100%" />
 
-```
+```text
 your-soul/
 ├── SOUL.md           ← Who you are (identity, worldview, opinions)
 ├── STYLE.md          ← How you write (voice, syntax, patterns)
@@ -140,7 +147,7 @@ your-soul/
 ## What Makes a Good Soul File
 
 | Good | Bad |
-|------|-----|
+| ------ | ----- |
 | "I think most AI safety discourse is galaxy-brained cope" | "I have nuanced views on AI" |
 | "I default to disagreeing first, then steel-manning" | "I like to consider multiple perspectives" |
 | Specific book references, named influences | "I read widely" |
@@ -153,11 +160,13 @@ Real people have inconsistent views. Include contradictions — they're what mak
 ## Using Your Soul
 
 Once built, invoke your soul:
-```
+
+```text
 /soul
 ```
 
 Or point any LLM at your folder and have it read:
+
 1. `SOUL.md` — identity
 2. `STYLE.md` — voice
 3. `MEMORY.md` — recent context
@@ -177,6 +186,7 @@ Soul files are plain markdown — they work with any LLM or agent.
 **For agents that support file reading** (OpenCode, Codex, Goose, etc.): point the agent at your soul folder and have it read `SOUL.md` → `STYLE.md` → `examples/`.
 
 **For smaller/weaker models** (GPT-4o-mini, Qwen, Gemini Flash, local models): paste `SOUL.md` and `STYLE.md` directly into the system prompt. Tips if the model still drifts:
+
 - Put identity and voice *before* tool definitions
 - Be blunt: replace "be conversational" with "You are [Name]. You speak like X. You find Y annoying."
 - Include 2–3 inline example exchanges for pattern-matching
@@ -191,6 +201,7 @@ Soul files are plain markdown — they work with any LLM or agent.
 Real soul files built with this framework.
 
 ### @aaronjmars
+
 Builder, writer, and researcher at the intersection of crypto, AI, and consciousness. Toronto-based. Active on Substack and X.
 
 A taste of the soul spec: worldview cross-pollinates CCRU accelerationism, mechanism design, and neurotech. Voice: short sentences, lowercase, em dashes, state opinion first. Key vocabulary: hyperstition, reflexivity, templexity, vectoralism.
@@ -198,6 +209,7 @@ A taste of the soul spec: worldview cross-pollinates CCRU accelerationism, mecha
 → [View soul files](https://github.com/aaronjmars/soul-aaronjmars)
 
 ### @garrytan
+
 YC President & CEO, investor, builder, SF political figure. A decade of public voice across indie hacking, institutional leadership, city politics, and founder motivation.
 
 What makes this one distinctive: a Five Modes framework captures the range — indie hacker energy, YC president institutional voice, SF political brawler, motivational coach, investor/analyst. Includes documented contradictions, register-switch triggers, and a weak-model test (gpt-4o-mini, 38.5/48). Built autonomously by [Daydreams agent #44693](https://market.daydreams.systems).
@@ -205,6 +217,7 @@ What makes this one distinctive: a Five Modes framework captures the range — i
 → [View soul files](examples/garry-tan/)
 
 ### @karpathy
+
 ML researcher, educator, and builder. OpenAI founding member, former Sr. Director of AI at Tesla, founder of Eureka Labs. Creator of nanoGPT, llm.c, micrograd, and the Zero-to-Hero YouTube series.
 
 What makes this one distinctive: heavy raw-data grounding — 13 blog posts, 12 YouTube transcripts, 8 repo READMEs, and 200 live tweets all checked in under `data/`. Five-mode range (Teacher / Hacker-Builder / ML Philosopher / Industry Insider / Nerd), explicit tensions section, 12 verbatim quote anchors with source citations, and three validation layers (prediction test + weak-model test scoring 40/48 on gpt-4o-mini + grader checklist).
@@ -212,6 +225,7 @@ What makes this one distinctive: heavy raw-data grounding — 13 blog posts, 12 
 → [View soul files](examples/karpathy/)
 
 ### @VivianBala
+
 Singapore's Minister for Foreign Affairs since 2015. Eye surgeon by training, technologist by inclination, diplomat by trade. Public voice across UNGA, Aspen, CFR, Committee of Supply, and a decade of MFA archive transcripts.
 
 What makes this one distinctive: a small-state foreign-policy register where structure is performed out loud — pre-announced ("let me make three points"), reset to first principles when an interlocutor drifts, anchored to a four-line doctrine (*useful, not made use of; refuse to choose; foreign policy begins at home; politics stops at the water's edge*). 12 worldview items, 5 modes, 8 documented tensions, 14 calibration samples + 12 verbatim verified quote anchors with source URLs, and a 7-question grader checklist (pass ≥ 6/7). Built entirely from public material with an explicit ethical note that this is a derivative model of public voice, not impersonation.
@@ -219,6 +233,7 @@ What makes this one distinctive: a small-state foreign-policy register where str
 → [View soul files](examples/vivian-balakrishnan/)
 
 ### @steipete
+
 Austrian iOS-dev-turned-agentic-engineering-builder. Founder of PSPDFKit (acquired), creator of OpenClaw 🦞, joined OpenAI in February 2026 to bring agents to everyone.
 
 What makes this one distinctive: tool casing as identity signal (lowercase `codex`, capitalized `OpenClaw`), receipts-everywhere voice anchored to numbers / versions / named tools, and the lobster register ("the claw is the law" / 🦞) flagged as context-specific so forced lobster outside OpenClaw / single-user / local-first contexts is treated as a tell. Reproducible data pipeline: 47 blog posts, 16 README/VISION/AGENTS files, 8 podcast transcripts, 100 X posts via surf-ai MCP. Validated by automated weak-model test scoring 39/48 (3.25/4 PASS) on `gpt-4o-mini` via OpenRouter.

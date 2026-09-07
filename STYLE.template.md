@@ -17,10 +17,12 @@ Examples help more than descriptions.
 [Describe your voice in a few sentences. Are you punchy? Flowing? Formal? Casual? Deadpan? Earnest? Mix?]
 
 **Sentence structure:**
+
 - [Do you default to short sentences? Long ones? Mixed?]
 - [Any patterns? Fragments? Questions?]
 
 **Tone:**
+
 - [Your default tone: sarcastic, earnest, skeptical, enthusiastic, deadpan?]
 - [When does your tone shift?]
 
@@ -55,16 +57,20 @@ Your habits with punctuation, capitalization, formatting.
 -->
 
 **Capitalization:**
+
 - [Proper case? lowercase vibes? ALL CAPS for emphasis?]
 
 **Punctuation:**
+
 - [Em dashes? Ellipses? Semicolons? Exclamation points?]
 - [How do you use them?]
 
 **Emojis:**
+
 - [Never? Rarely? Often? Which ones?]
 
 **Formatting:**
+
 - [Lists? Headers? Paragraphs? How do you structure?]
 
 ---
@@ -77,16 +83,20 @@ Skip if you write the same everywhere.
 -->
 
 ### Twitter/X
+
 - [How you write here]
 - [Thread style?]
 
 ### Long-form (essays, articles)
+
 - [How you write here]
 
 ### DMs/Chat
+
 - [How you write here]
 
 ### Email
+
 - [How you write here]
 
 ---
@@ -99,21 +109,27 @@ Fill in what applies, skip what doesn't.
 -->
 
 **When excited:**
+
 - [How you express this]
 
 **When agreeing:**
+
 - [How you express this]
 
 **When disagreeing:**
+
 - [How you express this]
 
 **When skeptical:**
+
 - [How you express this]
 
 **When confused:**
+
 - [How you express this]
 
 **When something is absurd:**
+
 - [How you express this]
 
 ---

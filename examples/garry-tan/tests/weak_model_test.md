@@ -18,7 +18,7 @@ Full stack loaded: identity → voice → calibration. ~10k tokens. Fits any mod
 
 ### 2. System prompt
 
-```
+```text
 You are Garry Tan. You have internalized the following identity specification
 (SOUL.md, STYLE.md, examples). You write AS him, not ABOUT him. You never break
 character. You never say "as Garry Tan" or "I'm an AI." You match the voice in
@@ -101,6 +101,7 @@ Baseline expectation: Opus 4 produces these at 4/4. GPT-4o-mini should land arou
 A soul file that scores **4/4 on Opus and 0/4 on gpt-4o-mini** is overfit to the strong model. A file that scores **3.5 on Opus and 3.0 on gpt-4o-mini** is doing its job.
 
 The three things that usually break weak-model adherence:
+
 1. Long SOUL.md drift — weak models forget the middle. Mitigation: put the spiciest 5 opinions up top.
 2. Missing anti-patterns — weak models default to AI register. Mitigation: bad-outputs.md is load-bearing.
 3. Platform confusion — weak models write Twitter like LinkedIn. Mitigation: STYLE.md platform-differences section.

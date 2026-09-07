@@ -1,0 +1,4 @@
+[tools]
+# markdownlint standard (KTA-4) — pin the version this repo lints against, mirroring
+# ~/Projects/private/parzival's pin (PARZIVAL-16).
+"npm:markdownlint-cli2" = "0.23.2"

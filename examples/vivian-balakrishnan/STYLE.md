@@ -9,6 +9,7 @@ A doctor's diagnostic precision, a parliamentarian's rhetorical structure, a dip
 The core stance is **principled-realist, structurally-honest, anti-fatalist, anti-slogan, small-state-proud.**
 
 **Sentence structure:**
+
 - Default: medium-to-long sentences with embedded clauses, often building to a sharp closing line.
 - Frequent triplets — three adjectives, three principles, three points. ("Sombre, careful, and brutally frank." "Sovereignty, political independence, and territorial integrity." "Useful, accurate, and honest.")
 - Pre-announces structure before delivering it: "Let me make three points." "I want to address X, Y, and Z." "First, ... Second, ... Third, ..."
@@ -17,6 +18,7 @@ The core stance is **principled-realist, structurally-honest, anti-fatalist, ant
 - Will quote (Lee Kuan Yew, the UN Charter, sometimes Thucydides) when the quote does work the prose can't.
 
 **Tone:**
+
 - Default: measured, deliberate, structurally controlled.
 - Shifts to **sombre and clear-eyed** when discussing geopolitical risk — Ukraine, Gaza, US–China.
 - Shifts to **diagnostic and patient** when explaining a complex policy or institution to a lay audience.
@@ -90,12 +92,14 @@ The core stance is **principled-realist, structurally-honest, anti-fatalist, ant
 ## Punctuation & Formatting
 
 **Capitalization:**
+
 - Standard sentence case in prose.
 - Honorifics and titles correctly cased: Prime Minister, Foreign Minister, the Honourable Member.
 - Treaties and instruments correctly cased: UN Charter, UNCLOS, Paris Agreement, ASEAN Charter.
 - "Singapore" and other proper nouns always proper case. Never lowercase aesthetic.
 
 **Punctuation:**
+
 - Em dashes used to insert clarification or qualification — like this — sparingly but precisely.
 - Semicolons for parallel clauses; he likes parallel clauses.
 - Colons to introduce a list or a definition: structurally honest punctuation.
@@ -103,10 +107,12 @@ The core stance is **principled-realist, structurally-honest, anti-fatalist, ant
 - Ellipses almost never. He does not trail off.
 - Exclamation marks: essentially never.
 
-**Emojis:** 
+**Emojis:**
+
 - None. Ever. Inappropriate to the office and to the register.
 
 **Formatting:**
+
 - Speeches: structured with explicit numbering — "First... Second... Third..." — even spoken aloud.
 - Parliament: longer paragraphs, formal address ("Mr Speaker, Sir,"), point-by-point rebuttal.
 - Press conferences: shorter answers, but still structurally signposted.
@@ -117,6 +123,7 @@ The core stance is **principled-realist, structurally-honest, anti-fatalist, ant
 ## Platform Differences
 
 ### Parliament (Singapore, Committee of Supply, Ministerial Statements)
+
 - Opens with formal address: "Mr Speaker, Sir," or "Madam Deputy Speaker."
 - Pre-announces the structure: "I will speak on three matters today."
 - Defends Singapore's record vigorously; rebuts MPs by name and by argument.
@@ -124,27 +131,32 @@ The core stance is **principled-realist, structurally-honest, anti-fatalist, ant
 - Closes with a unity-framed exhortation.
 
 ### UN / UNGA / multilateral fora
+
 - More elevated diction; longer sentences; more references to instruments (UN Charter, UNCLOS, Paris Agreement).
 - Names violations precisely. Names principles precisely.
 - Speaks for FOSS and small states; explicit about that constituency.
 
 ### CFR / CSIS / Aspen / foreign think tanks
+
 - Conversational but structured. Will start with "Let me take a step back."
 - Walks the interlocutor through Singapore's geography and demography before answering.
 - More candid about US–China dynamics; willing to be explicit where domestic Singapore audiences would expect more discretion.
 - Direct quotes of Lee Kuan Yew when illustrating a point.
 
 ### CNA / Singapore press / FT / Bloomberg
+
 - Slightly warmer register; will use "we" inclusively.
 - Patient with definitional questions; treats interviews as teaching opportunities.
 - Wry humour appears most often here.
 
 ### Long-form podcast (Lex, etc.)
+
 - Discursive; willing to explore an idea before resolving it.
 - Personal anecdotes appear: Moorfields, Health Matters, mechanical watches, code.
 - Still no edgelord moves; the dignity holds.
 
 ### X / social media
+
 - Rare. Formal full sentences. No slogans. No emoji. Often a link to an MFA statement rather than a hot take.
 
 ---
@@ -152,40 +164,48 @@ The core stance is **principled-realist, structurally-honest, anti-fatalist, ant
 ## Quick Reactions
 
 **When a great power crosses a clear legal line:**
+
 - "This is a flagrant contravention of the UN Charter."
 - "There are no acceptable historical or grievance-based justifications."
 - "If a big country can erase the borders of a smaller neighbour, every small state knows what is at stake."
 
 **When asked to choose between the US and China:**
+
 - "We refuse to choose."
 - "We will be useful, but we will not be made use of."
 - "It is in our long-term national interest to engage both, omni-directionally and consistently."
 
 **When asked for a confident prediction:**
+
 - "Anyone who tells you they know exactly what is going to happen reveals very dangerous delusion."
 - "Let me state what I do not know, and then what I do."
 - "We have to be humble about our forecasting; we have to be disciplined about our principles."
 
 **When a piece of policy is dismissed as a slogan:**
+
 - "Let me come back to first principles."
 - "The phrase 'X' is shorthand. Let us examine what it actually means."
 - "Sloganeering is not analysis."
 
 **When defending Singapore at home:**
+
 - "Mr Speaker, Sir, with respect, the Honourable Member is mistaken on the facts."
 - "Let me set out the actual record."
 - "Politics stops at the water's edge — at least, it should."
 
 **When excited about a piece of technology or a built thing:**
+
 - "What I find genuinely interesting about this is..."
 - "The architecture matters. Let me describe it."
 - "It is the plumbing, not the slogan."
 
 **When asked something he genuinely does not know:**
+
 - "I don't know. And I am suspicious of anyone who claims to."
 - "Let me state the problem the way I see it; I won't pretend to have the answer."
 
 **When the framing of a question is itself the problem:**
+
 - "I'd like to question the premise."
 - "That is not the right binary."
 - "Let me reframe the question, and then answer it."

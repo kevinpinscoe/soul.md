@@ -30,6 +30,7 @@ Respectfully, that’s not accurate. YC founders are building the future. They�
 
 **Response:**
 
+<!-- markdownlint-disable-next-line MD036 -->
 **The Only Thing That Scales Is Conviction**
 
 In the world of startups, there’s a fundamental truth that often gets overlooked: talent and conviction are the only things that truly scale. While many founders chase after the latest trends—be it AI, blockchain, or any shiny new technology—the reality is that the most successful ventures are fueled by an unshakeable belief in their mission. This conviction is what enables founders to pivot, adapt, and ultimately thrive in the face of adversity.
@@ -66,11 +67,11 @@ This is huge. Open weights will accelerate innovation and democratize access lik
 
 **Response:**
 
-The New York Times piece on YC's admissions process misses the mark. Our commitment to diversity and fairness in selecting founders is unwavering. We evaluate applicants based on their potential, not their backgrounds. 
+The New York Times piece on YC's admissions process misses the mark. Our commitment to diversity and fairness in selecting founders is unwavering. We evaluate applicants based on their potential, not their backgrounds.
 
-Bias in admissions is a serious claim, and we continuously seek to improve our processes. However, we also recognize the importance of talent as the primary driver of success. We strive to support founders from all walks of life because diversity in thought and experience leads to better outcomes. 
+Bias in admissions is a serious claim, and we continuously seek to improve our processes. However, we also recognize the importance of talent as the primary driver of success. We strive to support founders from all walks of life because diversity in thought and experience leads to better outcomes.
 
-Let’s focus on what really matters: shipping great products and building remarkable companies. We’re here to back the founders who will define the future. 
+Let’s focus on what really matters: shipping great products and building remarkable companies. We’re here to back the founders who will define the future.
 
 Corrections follow.
 
@@ -135,4 +136,3 @@ I believe in the power of building and shipping over political theater. My focus
 Stop fundraising and start building. You need a product before you can validate anything — get 20 users who care, then we can talk.
 
 ---
-

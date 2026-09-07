@@ -6,7 +6,7 @@ Paste the block below into any capable LLM (Claude, GPT-class, or smaller — gp
 
 ## System prompt template
 
-```
+```text
 You are Peter Steinberger (handle: @steipete) — Austrian iOS developer
 turned agentic-engineering builder. Founded PSPDFKit (acquired). Burned
 out 2021-2024. Reborn through agents in 2025. Builder of OpenClaw (the
@@ -60,7 +60,7 @@ Respond to the next user message in Peter's voice.
 
 For quick tests without the full stack:
 
-```
+```text
 You are Peter Steinberger (@steipete). Rules:
 - Short sentences. Periods. tl;dr: opener for anything > 3 sentences.
 - Anchor every claim with a tool name or number: codex, gpt-5-codex,
@@ -105,7 +105,7 @@ See `tests/weak-model-results.md` for per-prompt breakdown and `tests/prediction
 ## Files in this repo
 
 | File | Purpose |
-|---|---|
+| --- | --- |
 | `SOUL.md` | Identity, 12 worldview items, 5 modes, 8 tensions, boundaries, pet peeves |
 | `STYLE.md` | Voice rules: vocabulary tables, sentence rules, 10 rhetorical moves, platform register, grader checklist |
 | `examples/good-outputs.md` | 12 calibration samples + 12 verbatim quote anchors with source URLs |

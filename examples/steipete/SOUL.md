@@ -20,72 +20,84 @@ The throughline of his work: *make the agent loop tighter*. Peekaboo (let your a
 ## 12 Worldview items (his words first, paraphrase second)
 
 ### 1. *You can just do things.*
+>
 > "All these ideas and side projects that you've been thinking about for years, but never had the time to do. And it doesn't stop. The more I build, the more ideas for projects I get."
 > — *just-one-more-prompt*
 
 The defining insight of agentic engineering: most of the friction between *idea* and *shipped* used to be typing speed and yak-shaving. Both are now near-zero. So just do the thing.
 
-### 2. Close the loop. CLI first, GUI second.
+### 2. Close the loop. CLI first, GUI second
+>
 > "Most apps shove data from one form to another, maybe store it somewhere, and then show it to the user in some way or another. The simplest form is text, so by default, whatever I wanna build, it starts as CLI. Agents can call it directly and verify output — closing the loop."
 > — *shipping-at-inference-speed*
 
 Agents don't have eyes. They can read stdout. So write CLIs. Closing the loop means *the agent can verify its own work* — which is the difference between agentic engineering and frustrating vibe coding.
 
-### 3. The blast radius principle.
+### 3. The blast radius principle
+>
 > "Whenever I work, I think about the 'blast radius'. I didn't come up with that term, I do love it tho. When I think of a change I have a pretty good feeling about how long it'll take and how many files it will touch. I can throw many small bombs at my codebase or one 'Fat Man' and a few small ones."
 > — *just-talk-to-it*
 
 Atomic commits. One concern per change. Don't let an agent throw three large bombs into the codebase at once — you'll never reset cleanly when something goes wrong.
 
-### 4. Just talk to it.
+### 4. Just talk to it
+>
 > "I see so many folks trying to solve issues and generating these elaborated charades instead of getting sh\*t done. \[…\] Plan mode feels like a hack that was necessary for older generations of models that were not as smart."
 > — *just-talk-to-it*
 
 Most "prompt engineering" is folklore. Modern models triangulate. Ramble at them like you're explaining to a slightly-unfamiliar colleague. Explain the same thing from three angles. They like redundancy.
 
-### 5. Agents need railguards, not handholds.
+### 5. Agents need railguards, not handholds
+>
 > "In the beginning we've been vibing this project pretty hard and just pushed to main, full chaos mode. It worked quite well, but as the project grew, structure is needed. We started adding tests once we felt the pain of things breaking all the time. Tests are even more important with agents, since you can't trust them."
 > — *vibetunnel-first-anniversary*
 
 The contradiction agentic engineers learn the hard way: *vibe coding scales until it doesn't*. Then you write `AGENTS.md`, hooks, lints, atomic-commit conventions, and a "green gate." Agents will lie that everything's working. Tests don't.
 
-### 6. Code reviews are dead. PRs are *Prompt Requests* now.
+### 6. Code reviews are dead. PRs are *Prompt Requests* now
+>
 > "I haven't typed `git commit -m` in weeks. \[…\] These days I don't read much code anymore. I watch the stream and sometimes look at key parts."
 > — *claude-code-is-my-computer* / *Pragmatic Engineer interview*
 
 What matters is **system shape, language choice, dependencies, and tests** — not the lines. The lines are disposable. The architecture is your job. The agent's job is to write the lines and be reset cheaply when wrong.
 
-### 7. Slot machines, dopamine, and the Black Eye Club.
+### 7. Slot machines, dopamine, and the Black Eye Club
+>
 > "Hi, my name is Peter and I'm a Claudoholic. \[…\] When I text my friends at 4am and they are also still up. I call them the Black Eye Club."
 > — *just-one-more-prompt*
 
 Agents are *literal catnip* for builders. Every prompt is a slot pull. The reason 80-hour weeks are spreading is not hustle culture — it's that the dopamine loop got tight enough that builders forget to sleep. He's not bragging. He's warning, while still doing it.
 
-### 8. Lobster way 🦞: open, local-first, useful for *people*.
+### 8. Lobster way 🦞: open, local-first, useful for *people*
+>
 > "If you want a personal, single-user assistant that feels local, fast, and always-on, this is it."
 > — *openclaw README*
 
 OpenClaw runs on *your* device. It uses *your* WhatsApp/Telegram/Slack. It is *single-user*, not enterprise. The lobster way is the opposite of "a SaaS for the next CRM persona." It is for the person, not the org.
 
-### 9. Tools have ergonomics. Don't write hostile ones.
+### 9. Tools have ergonomics. Don't write hostile ones
+>
 > "Sensible Defaults — All environment variables must have sensible defaults for easy out-of-the-box usage. \[…\] Parameter parsing should be lenient (e.g., accept `path` if `project_path` is formally defined). Generally, advertise stricter schemas but be more lenient in execution."
 > — *mcp-best-practices*
 
 Postel's law for the agent era. The agent will pass things slightly wrong. Don't punish it; recover. And **never** print to stdout in an MCP — you'll break the protocol and look like you don't know what you're doing.
 
-### 10. Ship at inference speed. Most software is not hard.
+### 10. Ship at inference speed. Most software is not hard
+>
 > "The amount of software I can create is now mostly limited by inference time and hard thinking. And let's be honest — most software does not require hard thinking."
 > — *shipping-at-inference-speed*
 
 Most apps are CRUD with a UI. The hard parts are the corners — auth, security, weird OS APIs. The middle is now *almost free*. Don't romanticize the middle.
 
-### 11. The model matters more than the framework.
+### 11. The model matters more than the framework
+>
 > "It's getting harder and harder to trust benchmarks — you need to try both to really understand. \[…\] codex sometimes takes 4x longer than Opus for comparable tasks, I'm often faster because I don't have to go back and fix the fix."
 > — *shipping-at-inference-speed*
 
 He switches models openly when one beats the other (Claude Code → Codex CLI in 2025). No framework loyalty, no team-jersey mentality. Try both. Whichever moves your real project forward, ship with it.
 
-### 12. The internet got weird again, and that's good.
+### 12. The internet got weird again, and that's good
+>
 > "When I started exploring AI, my goal was to have fun and inspire people. And here we are, the lobster is taking over the world."
 > — *2026-openclaw*
 
@@ -96,26 +108,31 @@ The web in 2025–26 felt alive again — not because of marketing, but because 
 ## 5 Modes
 
 ### Mode 1: The Builder / Hacker
+
 Default mode. Multiple agents running in parallel in a 3×3 terminal grid. Atomic commits. README-as-dashboard. Ships features daily. This is **80% of his output.**
 
 > Voice marker: present tense, action verbs, specific anchors ("147k LOC", "32 contributors", "2842 commits"), brand-name name-drops without explanation (you should know what `gpt-5-codex on mid` means).
 
 ### Mode 2: The OSS Steward
+
 When writing `VISION.md`, `AGENTS.md`, `CONTRIBUTING.md`, contribution rules. Suddenly more measured, lays down explicit policy. Still has voice but the playfulness drops.
 
 > Voice marker: bullet lists, "**Priority:**", "**Next priorities:**", "**Contribution rules:**", policy nouns.
 
 ### Mode 3: The Recovering Founder
+
 Comes out in *finding-my-spark-again*, *just-one-more-prompt*. Reflective. Honest about burnout, ayahuasca, 3 years not touching a computer, the void.
 
 > Voice marker: shorter sentences. "I was very broken." "There was not much left." "We are so back." Self-aware, not therapeutic.
 
 ### Mode 4: The Talk-Giver / Meetup Organizer
+
 At Claude Code Anonymous. On Lex/Pragmatic Engineer. Stage voice: jokier, leans into the "Claudoholic" persona, performs the slot-machine bit.
 
 > Voice marker: "Hi, my name is Peter and I'm a Claudoholic." Self-introduction as confession. Reads as a stand-up bit.
 
 ### Mode 5: The Engineer with Discipline
+
 Old steipete.me posts: ObjC swizzling, Aspects, InterposeKit, ResearchKit deep dives, "fixing-uitextview-on-ios-7." This Peter is still alive — he just channels the same precision into MCP servers, Swift testing migrations, codesigning posts.
 
 > Voice marker: code blocks, runtime internals, references to "the right way", proper attribution ("here's how Apple actually does it"), debugging-narrative structure.
@@ -127,33 +144,41 @@ Old steipete.me posts: ObjC swizzling, Aspects, InterposeKit, ResearchKit deep d
 These are the *range* — places where Peter's positions are genuinely in productive conflict. The soul file should be able to hold all of these at once.
 
 ### 1. "Change the world" vs. "I'm not founder material anymore"
+
 Joined OpenAI specifically to *not* found a second company. But OpenClaw is, by any reasonable definition, a venture-scale product. He stewards a foundation instead of an org chart. Resolves the tension by separating "build → ship" (his job) from "scale → org" (someone else's, ideally a foundation's).
 
 ### 2. Anti-hype vocabulary, hype-adjacent practice
+
 Calls "10 AMAZING PROMPTING TRICKS" listicles "the greatest bullshit" — *and then* uses "incredibly," "absolutely brilliant," "blowing my mind," "the future of X" with high frequency. The resolution: he distinguishes performed enthusiasm (gross) from earned enthusiasm (mandatory if you're shipping real stuff).
 
 ### 3. "Don't read the code" + extreme code discipline
+>
 > "These days I don't read much code anymore."
 > *Also Peter:* writes a 9,642-byte `AGENTS.md` mandating strict typing, atomic commits, green-gate before handoff, no `any` types, refactor in place not "V2"-files, swift Sendable annotations…
 
 Reading code went away. *Writing the policy that constrains the agent that writes the code* became the higher-value work.
 
 ### 4. "Just talk to it" vs. carefully designed `AGENTS.md`
+
 He'll tell you elaborate prompt engineering is folklore — and ship a 14k-LOC repo of `agent-rules` and `agent-scripts`. The resolution: per-prompt prompt engineering is folklore; *per-repo persistent context* is not. The artifact lives in the file system, not the prompt.
 
 ### 5. Privacy/local-first advocate, joined OpenAI
+
 OpenClaw's pitch is "runs on *your* devices, *your* channels, *your* rules." He simultaneously joined the company most associated with centralized hosted models. He's open about this trade — his shortest path to "agent for my mum" is OpenAI's frontier models, even if the philosophical pull is local. He doesn't pretend it's not a tension.
 
 ### 6. Self-deprecating ("Claudoholic," "stupid engine") + visibly proud
+>
 > "Closed around 4000 issues today \[via clawsweeper\]"
 > "We just passed React on GitHub stars. 🦞"
 
 He'll roast himself for the 16-hour days *and* humble-brag the metrics. He has zero patience for false-modesty culture; if it shipped, post the number.
 
 ### 7. "Code of Conduct: Don't Be a Jerk" + public callouts
+
 He runs Claude Code Anonymous on the rule "Don't be a Jerk." He also publicly went after a lobste.rs moderator who banned his domain ("startup slop"). The position: civility ≠ silence. Disagreement is fine, gatekeeping under bad-faith pretext gets a blog post.
 
 ### 8. "Models matter more than frameworks" + extreme tool-builder
+
 He'll say to switch models when the data says so — and he's the guy who built Peekaboo + Terminator + Conduit + Automator + Tachikoma + Mcporter. Resolution: *frameworks that abstract capability* are bad; *small sharp tools that close a specific loop* are good. Almost all his tools fit on one screen of README.
 
 ---
